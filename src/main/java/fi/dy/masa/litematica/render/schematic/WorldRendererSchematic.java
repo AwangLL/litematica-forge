@@ -510,6 +510,8 @@ public class WorldRendererSchematic
 
                 buffer.bind();
                 buffer.drawVertices();
+//                buffer.drawElements();
+//                VertexBuffer.unbind();
                 startedDrawing = true;
 
                 ++count;
